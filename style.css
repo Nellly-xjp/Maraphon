@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.header{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    box-sizing: border-box;
+    height: 100vh;
+  padding: 64px 120px;
+    background-image: url(images/background/Headphones-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+     display: flex;
+     flex-direction: column;
+    box-sizing: border-box;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+    padding: 64px 120px;
+    border: 1px solid #000;
+    background-color: aliceblue;
+}
+
+.menu__top {
+     display: flex;
+    justify-content: space-between;
+}
+
+.menu__bottom {
+  display: flex;
+    justify-content: space-between;
+}
