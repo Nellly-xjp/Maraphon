@@ -5,10 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css" />
   </head>
   <!-- #endregion -->
-  <body>
+  <body id="Home">
+    <!-- #region header -->
     <header class="header">
       <div class="header__top">
         <img src="images/icons/Logo.png" alt="Bose Logo" />
@@ -25,33 +29,37 @@
         </h1>
       </div>
     </header>
-
+<!-- #endregion -->
+ <!-- #region menu -->
     <div class="menu">
       <div class="menu__top">
         <img src="images/icons/Logo.png" alt="Bose Logo" />
         <img src="images/icons/Icon-Close.png" alt="Close Icon" />
       </div>
-      <div class="menu__botton">
-        <h3>Home</h3>
-        <h3>Recommended</h3>
-        <h3>Categories</h3>
-        <h3>How to buy</h3>
+
+      <div class="menu__bottom">
+        <nav class="nav">
+          <a href="#Home" class=nav__link >HOME</a>
+          <a href="#Recommended" class=nav__link > RECOMMENDED</a>
+          <a href="#Categories" class=nav__link >CATEGORIES</a>
+          <a href="#How-to-buy" class=nav__link >HOW TO BUY</a>
+       </nav>
       </div>
     </div>
-
+<!-- #endregion -->
     <main>
-      <section>
+      <section id="Recommended">
         <h2>Recommended</h2>
       </section>
 
-      <section>
+      <section id="Categories">
         <h2>
           Browse Bose <br />
           products by category
         </h2>
       </section>
 
-      <section>
+      <section id="How-to-buy">
         <h2>
           Why buy direct <br />
           from Bose
